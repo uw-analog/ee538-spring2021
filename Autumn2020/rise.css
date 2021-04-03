@@ -1,0 +1,71 @@
+  
+.rise-enabled {
+    /*background-color: #ffffff !important;
+    border-top: 30px #919191 solid;
+    border-bottom: 30px #919191 solid;*/
+}
+
+.question {
+    color: #008;   
+}
+
+.your_turn {
+    /* color: #e08414; */
+    font-size: 50%;
+    /*font-weight: bold; */
+}
+
+.serif {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.rendered_html h1 {
+    /*color: #129628; */
+	font-family: "Times New Roman", Times, serif;
+
+}
+
+.rendered_html h2 {
+    /*color: #129628; */
+	font-family: "Times New Roman", Times, serif;
+}
+
+.rendered_html h3 {
+    /*color: #129628; */
+	font-family: "Times New Roman", Times, serif;
+}
+
+.rendered_html h4 {
+    /*color: #129628; */
+	font-family: "Times New Roman", Times, serif;
+}
+
+ .math span {
+        font-size: 28px;
+      }
+
+.rendered_html table, .rendered_html th, .rendered_html tr, .rendered_html td {
+    font-size: 100%;
+}
+
+.container.slides .celltoolbar, .container.slides .hide-in-slideshow {
+    display: None ! important;
+}
+
+ul li{
+ font-size:28px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+<div class="footer">
+  <p>Footer</p>
+</div>

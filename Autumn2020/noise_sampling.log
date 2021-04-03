@@ -1,0 +1,40 @@
+
+   --- Expanded Deck Component Count ---
+C's 2
+R's 2
+V's 2
+tot: 6
+
+
+    --- Expanded Netlist ---
+* C:\Users\Jason\Documents\uw\ee538-autumn2020\Lecture\noise_sampling.asc
+v2 vnoise 0 pwl file=c:\users\jason\documents\uw\ee538-autumn2020\project\input_noise.csv
+c1 vn_filt 0 10n
+r1 vn_filt vnoise 159
+v1 vsignal 0 sine(0 1 100)
+c2 vsig_filt 0 10n
+r2 vsig_filt vsignal 159
+.tran 0 100m 0 .5u
+.ic v(vn_filt)=0
+.ic v(vsig_filt)=0
+.end
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Mon Dec 14 19:49:22 2020
+Total elapsed time: 44.291 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 10164699
+traniter = 10164696
+tranpoints = 5082349
+accept = 4860499
+rejected = 221850
+matrix size = 6
+fillins = 0
+solver = Normal
+Matrix Compiler1: 110 bytes object code size  0.1/0.1/[0.0]
+Matrix Compiler2: off  [0.1]/0.1/0.1
+
